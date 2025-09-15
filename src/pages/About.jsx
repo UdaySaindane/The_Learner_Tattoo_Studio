@@ -99,7 +99,7 @@ function About() {
                 </div>
                 <div className="info-item">
                   <h5>📧 Contact</h5>
-                  <p>saindanejayesh49@gmail.com | +91 88306 97782</p>
+                  <p>saindanejayesh49@gmail.com |<br /> +91 88306 97782</p>
                 </div>
               </div>
             </div>
