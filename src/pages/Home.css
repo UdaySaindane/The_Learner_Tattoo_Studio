@@ -1,0 +1,275 @@
+        /* 
+.home-hero {
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    color: white;
+    min-height: 100vh;
+    padding: 80px 0;
+}
+
+.brand-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.word-span {
+    background: linear-gradient(90deg, #4d3b0b, #ffd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeInWord 0.6s ease forwards;
+    margin-right: 8px;
+}
+
+.word-span {
+    background: linear-gradient(90deg, #4d3b0b, #ffd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    animation: fadeInWord 0.6s ease forwards;
+    margin-right: 8px;
+}
+
+@keyframes fadeInWord {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.brand-tagline {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 15px;
+    line-height: 1.8;
+}
+
+.btn-gold {
+    background: linear-gradient(90deg, #4d3b0b, #ffd700);
+    color: #000;
+    border: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background: linear-gradient(90deg, #ffd700, #d4af37);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-image {
+    max-width: 50vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 2;
+}
+
+.gold-stripes {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 120%;
+    height: 120%;
+    background-image: repeating-linear-gradient( 45deg, rgba(212, 175, 55, 0.15) 0px, rgba(212, 175, 55, 0.15) 2px, transparent 2px, transparent 10px);
+    border-radius: 25px;
+    z-index: 1;
+} */
+        /* ////////////////////////////////// */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+        .home-hero {
+            background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+            color: white;
+            min-height: 100vh;
+            padding: 80px 0;
+        }
+        
+        .brand-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            height: 120px;
+            margin-bottom: 80px;
+        }
+        
+        .word-span {
+            font-family: "Empera";
+            /* font-family: "Marones"; */
+            /* background: linear-gradient(90deg, #8b6b1f, #ffd700); */
+            background: linear-gradient(90deg, #8b6b1f, #ffd700, #eedb74, #8b6b1f, #ffd700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInWord 0.6s ease forwards;
+        }
+        /* .word-span {
+            background: linear-gradient(90deg, #715a1b, #ffd700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeInWord 0.6s ease forwards;
+            margin-right: 8px;
+        } */
+        
+        @keyframes fadeInWord {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        /* .brand-tagline {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 15px;
+    line-height: 1.8;
+} */
+        
+        .brand-tagline {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            line-height: 1.8;
+            font-weight: 500;
+            background: linear-gradient(90deg, #8b6b1f, #ffd700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .btn-gold {
+            background: linear-gradient(90deg, #4d3b0b, #ffd700);
+            color: #000;
+            border: none;
+            padding: 12px 28px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-gold:hover {
+            background: linear-gradient(90deg, #ffd700, #d4af37);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+        }
+        
+        .image-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .hero-image {
+            max-width: 50vh;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .gold-stripes {
+            position: absolute;
+            top: -30px;
+            left: -30px;
+            width: 120%;
+            height: 120%;
+            background-image: repeating-linear-gradient( 45deg, rgba(212, 175, 55, 0.15) 0px, rgba(212, 175, 55, 0.15) 2px, transparent 2px, transparent 10px);
+            border-radius: 25px;
+            z-index: 1;
+        }
+        
+        @media (min-width: 1285px) {
+            .brand-title {
+                font-size: 3.5rem;
+                font-weight: 700;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                height: 70px;
+                margin-bottom: 80px;
+            }
+        }
+        /* ////////////////////////////////
+        
+        */
+        /* Tablet: below 992px */
+        
+        @media (max-width: 992px) {
+            .brand-title {
+                font-size: 2.8rem;
+                height: auto;
+                margin-bottom: 60px;
+            }
+            .brand-tagline {
+                font-size: 1.05rem;
+            }
+            .btn-gold {
+                padding: 10px 24px;
+                font-size: 0.95rem;
+            }
+            .hero-image {
+                max-width: 40vh;
+            }
+        }
+        /* Between 766px – 593px (small tablets / large phones) */
+        
+        @media (max-width: 766px) and (min-width: 593px) {
+            .brand-title {
+                font-size: 2.4rem;
+                margin-bottom: 50px;
+            }
+            .brand-tagline {
+                font-size: 1rem;
+            }
+            .btn-gold {
+                padding: 9px 20px;
+                font-size: 0.9rem;
+            }
+            .hero-image {
+                max-width: 35vh;
+            }
+        }
+        /* Mobile phones: below 592px */
+        
+        @media (max-width: 592px) {
+            .brand-title {
+                font-size: 2rem;
+                margin-bottom: 40px;
+                text-align: center;
+                justify-content: center;
+            }
+            .brand-tagline {
+                font-size: 0.9rem;
+                text-align: center;
+            }
+            .btn-gold {
+                padding: 8px 18px;
+                font-size: 0.85rem;
+                display: block;
+                margin: 15px auto 0;
+            }
+            .hero-image {
+                max-width: 30vh;
+            }
+            .home-hero .row {
+                flex-direction: column-reverse;
+                /* stack image below text */
+                text-align: center;
+            }
+        }
