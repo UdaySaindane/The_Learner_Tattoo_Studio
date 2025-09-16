@@ -8,40 +8,40 @@ const Gallery = () => {
       <div className="grid">
         {/* Long card */}
         <div className="card long">
-          <img src="/images/jayesh_png.png" alt="Long Card" />
+          <img src="/images/g06.jpg" alt="Long Card" />
         </div>
 
         {/* Short cards */}
         <div className="card short">
-          <img src="/images/about01.jpg" alt="Short Card 1" />
+          <img src="/images/g01.jpg" alt="Short Card 1" />
         </div>
                        {/* Another Long card example */}
         <div className="card long">
-          <img src="/images/jayesh_png.png" alt="Long Card 2" />
+          <img src="/images/g02.jpg" alt="Long Card 2" />
         </div>
         <div className="card short">
-          <img src="/images/aboutt03.jpg" alt="Short Card 2" />
+          <img src="/images/g05.jpg" alt="Short Card 2" />
         </div>
 
         
 
  
         <div className="card short">
-          <img src="/images/about02.jpg" alt="Short Card 3" />
+          <img src="/images/g04.jpg" alt="Short Card 3" />
         </div>
         {/* Long card */}
         <div className="card long">
-          <img src="/images/jayesh_png.png" alt="Long Card" />
+          <img src="/images/g07.jpg" alt="Long Card" />
         </div>
 
 
         {/* More short cards */}
         <div className="card short">
-          <img src="/images/about01.jpg" alt="Short Card 4" />
+          <img src="/images/g03.jpg" alt="Short Card 4" />
         </div>
                         {/* Long card */}
         <div className="card long">
-          <img src="/images/jayesh_png.png" alt="Long Card" />
+          <img src="/images/g08.jpg" alt="Long Card" />
         </div>
         <div className="card short">
           <img src="/images/aboutt03.jpg" alt="Short Card 5" />

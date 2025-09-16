@@ -12,13 +12,13 @@ function Services() {
         image={sampleImg}
       />
       <Card
-        title="Piercing"
-        text="Safe and stylish piercings with professional care."
+        title="Painting"
+        text="Painting "
         image={sampleImg}
       />
       <Card
-        title="Consultation"
-        text="Personalized sessions to bring your ideas to life."
+        title="Sketching"
+        text="Portrait sketches"
         image={sampleImg}
       />
     </div>
