@@ -39,6 +39,11 @@ function Services() {
         text="Artistic face designs with vibrant colors and fine detail."
         image={sampleImg}
       />
+                  <Card
+        title="Blood painting"
+        text="Portrait blood painting"
+        image={sampleImg}
+      />
     </div>
   );
 }

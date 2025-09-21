@@ -47,7 +47,8 @@ function Home() {
             <p className="brand-tagline">
               Becoming a Tattoo Artist <br /> with FAITH
             </p>
-            <button className="btn-gold mt-3">Artist Jayesh</button>
+            {/* <button className="btn-gold mt-3">Contact Me</button> */}
+            <a href="/contact" className="btn-gold mt-3"> Contact Me </a>
           </div>
 
           {/* Right side image */}
