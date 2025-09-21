@@ -12,13 +12,31 @@ function Services() {
         image={sampleImg}
       />
       <Card
-        title="Painting"
-        text="Painting "
+        title="Oil Painting"
+        text="Timeless and expressive oil paintings crafted with depth, texture, and vibrant detail."
         image={sampleImg}
       />
       <Card
-        title="Sketching"
-        text="Portrait sketches"
+        title="Watercolour Painting"
+        text="Delicate and vibrant watercolour paintings with fluid strokes and artistic charm."
+        image={sampleImg}
+      />
+
+            <Card
+        title="Portrait Sketching"
+        text="B&W and colour portrait sketching"
+        image={sampleImg}
+      />
+
+            <Card
+        title="Pen Sketch"
+        text="Portrait pen Sketch"
+        image={sampleImg}
+      />
+
+                  <Card
+        title="Rangoli"
+        text="Artistic face designs with vibrant colors and fine detail."
         image={sampleImg}
       />
     </div>

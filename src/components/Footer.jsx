@@ -27,12 +27,13 @@ const Footer = () => {
         {/* Right: Contact */}
         <div className="footer-contact">
           <h3>Contact </h3>
-          <p><FaMapMarkerAlt /> Sharad Nagar, Collector zone, Malegaon (Nashik) </p>
+          <p><FaMapMarkerAlt /> Sharad Nagar, Collector zone, Malegaon 423203,
+(Nashik, Maharashtra) </p>
           <p><FaPhoneAlt /> +91 88306 97782</p>
           <p><FaEnvelope /> saindanejayesh49@gmail.com</p>
 
           <div className="footer-socials">
-            <a href="#"><FaFacebookF /></a>
+            <a href="https://www.facebook.com/share/176BwR9qCu/"><FaFacebookF /></a>
             <a href="https://www.instagram.com/the_learner.tattooz?utm_source=qr&igsh=cTNpejY4dnMybDBn"><FaInstagram /></a>
                       <a
                         href="https://wa.me/8830697787"

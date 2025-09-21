@@ -68,7 +68,8 @@ function Contact() {
             <FaEnvelope /> saindanejayesh49@gmail.com
           </p>
           <p>
-            <FaMapMarkerAlt /> Sharad Nagar, Collector zone, Malegaon (Nashik)
+            <FaMapMarkerAlt /> Sharad Nagar, Collector zone, Malegaon 423203,
+(Nashik, Maharashtra)
           </p>
 
           <a

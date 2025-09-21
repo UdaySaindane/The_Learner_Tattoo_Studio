@@ -36,7 +36,7 @@ const Gallery = () => {
 
 
         {/* More short cards */}
-        <div className="card short">
+        <div className="card short">-
           <img src="/images/g03.jpg" alt="Short Card 4" />
         </div>
                         {/* Long card */}

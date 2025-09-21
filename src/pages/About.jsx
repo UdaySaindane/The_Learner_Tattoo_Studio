@@ -95,7 +95,7 @@ function About() {
                 </div>
                 <div className="info-item">
                   <h5>📍 Address</h5>
-                  <p>Sharad Nagar, Collector zone, Malegaon (Nashik)</p>
+                  <p>Sharad Nagar, Collector zone, Malegaon 423203, <br /> (Nashik, Maharashtra)   </p>
                 </div>
                 <div className="info-item">
                   <h5>📧 Contact</h5>

@@ -5,7 +5,7 @@ import "./Home.css";
 
 function Home() {
   const texts = [
-    "The Learner Tattooz",
+    "The Learner Tattooz & Arts",
     "Jayesh Saindane"
   ];
 
