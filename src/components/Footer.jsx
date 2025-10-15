@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="footer-container">
         {/* Left side: Logo / Brand */}
         <div className="footer-brand">
-          <h2 className="footer-title">The Learner Tattooz</h2>
-          <p className="footer-tagline">Mr. Jayesh Nandkumar Saindane</p>
+          <h2 className="footer-title">The Learner Tattooz & Arts</h2>
+          <p className="footer-tagline">Artist Jayesh Nandkumar Saindane</p>
         </div>
 
         {/* Middle: Links */}

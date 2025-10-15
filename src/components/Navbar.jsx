@@ -194,7 +194,9 @@
 // export default Navbar;
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "/images/log2.png";
+// import logo from "/images/log2.png";
+import logo from "/images/mainlg.png";
+
 import "./Navbar.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";

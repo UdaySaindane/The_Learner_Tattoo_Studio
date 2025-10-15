@@ -6,6 +6,7 @@ const Gallery = () => {
   return (
     <div className="gallery-container">
       <div className="grid">
+        
         {/* Long card */}
         <div className="card long">
           <img src="/images/g06.jpg" alt="Long Card" />
@@ -14,6 +15,9 @@ const Gallery = () => {
         {/* Short cards */}
         <div className="card short">
           <img src="/images/g01.jpg" alt="Short Card 1" />
+        </div>
+                <div className="card short">
+          <img src="/images/g09.jpg" alt="Short Card 1" />
         </div>
                        {/* Another Long card example */}
         <div className="card long">

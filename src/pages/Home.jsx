@@ -1,6 +1,7 @@
-
 import React, { useEffect, useState } from "react";
 import hero from "/images/jayesh_png.png"; // person PNG (transparent preferred)
+// import hero from "/images/h3.png"; // person PNG (transparent preferred)
+
 import "./Home.css";
 
 function Home() {
@@ -45,7 +46,8 @@ function Home() {
               ))}
             </h1>
             <p className="brand-tagline">
-              Becoming a Tattoo Artist <br /> with FAITH
+              Art is meditation... 
+ <br /> And My capacity is I meditate all over day..
             </p>
             {/* <button className="btn-gold mt-3">Contact Me</button> */}
             <a href="/contact" className="btn-gold mt-3"> Contact Me </a>
